@@ -22,9 +22,9 @@ before_build: before_build.cmd
 
 build_script: build.cmd
 
-after_build: after_build.cmd
-
-before_package: pack.cmd
+after_build:
+  - after_build.cmd
+  - pack.cmd
 
 artifacts:
   - path: 'artifacts\*.nupkg'
