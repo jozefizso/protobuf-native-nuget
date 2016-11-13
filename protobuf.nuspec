@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>protobuf-native</id>
+    <version>3.0.0-preview</version>
+    <title>Protocol Buffers</title>
+    <authors>Jozef Izso</authors>
+    <owners>Jozef Izso</owners>
+    <licenseUrl>https://github.com/jozefizso/protobuf-native-nuget/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jozefizso/protobuf-native-nuget</projectUrl>
+    <iconUrl>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.</description>
+    <summary>Protobuf (Visual C++)</summary>
+    <releaseNotes />
+    <copyright>Copyright 2016</copyright>
+    <tags>protobuf native cpp google protocol buffers</tags>
+  </metadata>
+</package>
