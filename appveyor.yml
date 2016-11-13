@@ -16,6 +16,8 @@ matrix:
 platform: x86
 configuration: Release
 
+install: git submodule update --init --recursive
+
 before_build: before_build.cmd
 
 build_script: build.cmd
