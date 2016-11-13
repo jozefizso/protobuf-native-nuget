@@ -16,4 +16,11 @@
     <copyright>Copyright 2016</copyright>
     <tags>protobuf native cpp google protocol buffers</tags>
   </metadata>
+  <files>
+    <file src="build\**" target="build" />
+    <file src="protobuf-install\include\**" target="lib\native\include" />
+    <file src="protobuf-install\lib\**" target="lib\native\v140" />
+    <file src="protobuf-install\bin\**" target="build\native\bin" />
+    <file src="LICENSE" target="LICENSE" />
+  </files>
 </package>
